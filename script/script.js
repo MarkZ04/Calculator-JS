@@ -55,8 +55,16 @@ window.onload = () => {
         input(btn) {
 
             let strScreen = this.screen.innerHTML;
+            let regNumber = new RegExp('[0-9]');
             let regMathOperation = /[\+\-\/\*]/;
             let arrNumbs = this.screen.innerHTML.split(regMathOperation);
+
+            // в строке не число
+            if (!regNumber.test(this.screen.innerHTML)) {
+
+                this.screen.innerHTML = '0';
+                return;
+            }
 
             // ввод первого числа
             if (!regMathOperation.test(strScreen)) {
