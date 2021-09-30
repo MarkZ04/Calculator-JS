@@ -1,0 +1,83 @@
+#wrapper {
+  padding: 20px;
+  width: 400px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: silver;
+  border-radius: 20px;
+}
+
+#screen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font: 5em sans-serif;
+  height: 150px;
+  background-color: seashell;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  word-break: break-word;
+}
+
+#keyboard {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90px;
+  height: 90px;
+  border-style: none;
+  -ms-flex-item-align: center;
+      align-self: center;
+  justify-self: center;
+  background-color: azure;
+  border-radius: 20%;
+  font: 2em sans-serif;
+}
+
+.btn:hover {
+  background-color: gainsboro;
+}
+
+.btn:active {
+  background-color: azure;
+}
+
+#clear {
+  width: 90px;
+  height: 50px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin: 0 0 10px;
+}
+/*# sourceMappingURL=style.css.map */
